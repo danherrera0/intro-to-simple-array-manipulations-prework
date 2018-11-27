@@ -14,6 +14,7 @@ end
 def using_pop(great_hits_of_the_nineties)
   great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
   puts great_hits_of_the_nineties.pop
+  return great_hits_of_the_nineties
 end
 
 def pop_with_args(chars_in_game_of_thrones)
