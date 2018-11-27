@@ -57,4 +57,14 @@ flat_array = private_colleges_in_newyork.using_flatten
 return flat_array
 end
 
-def using_delete 
+def using_delete(instructors, no_offense_steven)
+instructors=  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+no_offense_steven =using_delete(instructors, "Steven")
+return no_offense_steven
+end
+
+def using_delete_at(famous_robots, deleted_robot)
+famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
+deleted_robot = using_delete_at(famous_robots, 2)
+return deleted_robot
+end
