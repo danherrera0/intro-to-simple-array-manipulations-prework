@@ -45,10 +45,8 @@ flat_array =private_colleges_in_newyork.flatten
 return flat_array
 end
 
-def using_delete(instructors, no_offense_steven)
-instructors=  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-no_offense_steven =instructors.delete("Steven")
-return no_offense_steven
+def using_delete(array,string)
+return array.delete(string)
 end
 
 def using_delete_at(array, integer)
