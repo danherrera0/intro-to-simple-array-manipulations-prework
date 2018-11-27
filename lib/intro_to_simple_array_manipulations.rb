@@ -46,7 +46,7 @@ end
 
 def using_uniq(captain_planet_and_the_planeteers)
 captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-new_array = uniq(captain_planet_and_the_planeteers)
+new_array = captain_planet_and_the_planeteers.uniq
 return new_array
 end
 
@@ -58,11 +58,11 @@ end
 
 def using_delete(instructors, no_offense_steven)
 instructors=  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-no_offense_steven =delete(instructors, "Steven")
+no_offense_steven =instructors.delete("Steven")
 return no_offense_steven
 end
 
 def using_delete_at(array, integer)
-deleted_robot =delete_at(array, integer)
+deleted_robot =array.delete_at(integer)
 return deleted_robot
 end
