@@ -12,8 +12,7 @@ def using_unshift(neighborhoods_in_northwest_brooklyn, new_neighborhood)
 end
 
 def using_pop(array)
-  array.pop
-  return array
+  return array.pop()
 end
 
 def pop_with_args(chars_in_game_of_thrones)
