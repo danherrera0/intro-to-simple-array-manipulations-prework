@@ -19,7 +19,7 @@ end
 
 def pop_with_args(chars_in_game_of_thrones)
   chars_in_game_of_thrones =  ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
- return chars_in_game_of_thrones.pop(2)
+  chars_in_game_of_thrones.pop(2)
  return chars_in_game_of_thrones
 end
 
