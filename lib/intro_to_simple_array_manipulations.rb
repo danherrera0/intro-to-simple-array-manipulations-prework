@@ -38,6 +38,6 @@ def using_concat(my_favorite_things)
   return my_favorite_things
 end
 
-def using_insert(array)
-return array.insert(another_esoteric_language)
+def using_insert(list_of_esoteric_programming_languages)
+return list_of_esoteric_programming_languages.insert(another_esoteric_language)
 end
