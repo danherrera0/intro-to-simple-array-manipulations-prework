@@ -16,3 +16,12 @@ def using_pop(great_hits_of_the_nineties)
   return great_hits_of_the_nineties.pop
 end
 
+def pop_with_args(chars_in_game_of_thrones)
+  chars_in_game_of_thrones =  ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
+ return chars_in_game_of_thrones.pop(2)
+end
+
+def using_shift(my_favorite_cities)
+my_favorite_cities =["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+return im_so_over_this_city = my_favorite_cities.shift
+end
