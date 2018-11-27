@@ -16,9 +16,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  chars_in_game_of_thrones =  ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
-  chars_in_game_of_thrones.pop(2)
- return chars_in_game_of_thrones
+ array.pop(2)
+ return array
 end
 
 def using_shift(array)
