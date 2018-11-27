@@ -46,23 +46,23 @@ end
 
 def using_uniq(captain_planet_and_the_planeteers)
 captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-new_array = captain_planet_and_the_planeteers.using_uniq
+new_array = uniq(captain_planet_and_the_planeteers)
 return new_array
 end
 
 def using_flatten(private_colleges_in_newyork)
 private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
-flat_array = private_colleges_in_newyork.using_flatten
+flat_array = flatten(private_colleges_in_newyork)
 return flat_array
 end
 
 def using_delete(instructors, no_offense_steven)
 instructors=  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-no_offense_steven =using_delete(instructors, "Steven")
+no_offense_steven =delete(instructors, "Steven")
 return no_offense_steven
 end
 
-def using_delete_at(array, number)
-deleted_robot = using_delete_at(array, number)
+def using_delete_at(array, integer)
+deleted_robot =delete_at(array, integer)
 return deleted_robot
 end
