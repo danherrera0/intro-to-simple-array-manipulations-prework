@@ -37,3 +37,7 @@ def using_concat(my_favorite_things)
   my_favorite_things.concat(more_favs)
   return my_favorite_things
 end
+
+def using_insert(array)
+return array.insert(another_esoteric_language)
+end
