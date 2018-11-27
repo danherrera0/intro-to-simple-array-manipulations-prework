@@ -11,10 +11,9 @@ def using_unshift(neighborhoods_in_northwest_brooklyn, new_neighborhood)
   return neighborhoods_in_northwest_brooklyn.unshift(new_neighborhood)
 end
 
-def using_pop(great_hits_of_the_nineties)
-  great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-  puts great_hits_of_the_nineties.pop
-  return great_hits_of_the_nineties
+def using_pop(array)
+  array.pop
+  return array
 end
 
 def pop_with_args(chars_in_game_of_thrones)
