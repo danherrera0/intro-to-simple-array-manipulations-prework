@@ -63,8 +63,7 @@ no_offense_steven =using_delete(instructors, "Steven")
 return no_offense_steven
 end
 
-def using_delete_at(famous_robots, deleted_robot)
-famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-deleted_robot = using_delete_at(famous_robots, 2)
+def using_delete_at(array, number)
+deleted_robot = using_delete_at(array, number)
 return deleted_robot
 end
