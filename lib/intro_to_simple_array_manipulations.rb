@@ -25,3 +25,18 @@ def using_shift(my_favorite_cities)
 my_favorite_cities =["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
 return im_so_over_this_city = my_favorite_cities.shift
 end
+
+def shift_with_args(ice_cream_brands)
+  ice_cream_brands =  ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+  return ice_cream_brands.shift(2)
+end
+
+def using_concat(my_favorite_things)
+  my_favorite_things= ["raindrops on roses", "whiskers on kittens"]
+  more_favs = ["mario kart", "flatiron school"]
+  all_my_favs = my_favorite_things.concat(more_favs)
+  return all_my_favs
+end
+
+
+  
