@@ -44,3 +44,19 @@ end
 def using_insert(list_of_esoteric_programming_languages)
 return list_of_esoteric_programming_languages.insert(another_esoteric_language)
 end
+
+def using_uniq(captain_planet_and_the_planeteers)
+captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+new_array = captain_planet_and_the_planeteers.using_uniq
+return new_array
+end
+
+def using_flatten(private_colleges_in_newyork)
+private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+flat_array = private_colleges_in_newyork.using_flatten
+return flat_array
+end
+
+
+
+
