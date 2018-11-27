@@ -31,14 +31,12 @@ def using_concat(array1,array2)
   return array1.concat(array2)
 end
 
-def using_insert(list_of_esoteric_programming_languages)
-return list_of_esoteric_programming_languages.insert(another_esoteric_language)
+def using_insert(array,element)
+return array.insert(element)
 end
 
-def using_uniq(captain_planet_and_the_planeteers)
-captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-new_array = captain_planet_and_the_planeteers.uniq
-return new_array
+def using_uniq(array)
+return array.uniq
 end
 
 def using_flatten(private_colleges_in_newyork)
