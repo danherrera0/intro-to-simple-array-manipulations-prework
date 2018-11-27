@@ -16,7 +16,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
- return array.pop(2)
+array.pop(2)
+return array
 end
 
 def using_shift(array)
@@ -27,11 +28,9 @@ def shift_with_args(array)
   return array.shift(2)
 end
 
-def using_concat(my_favorite_things)
-  my_favorite_things= ["raindrops on roses", "whiskers on kittens"]
-  more_favs = ["mario kart", "flatiron school"]
-  my_favorite_things.concat(more_favs)
-  return my_favorite_things
+def using_concat(array)
+  array.concat(more_favs)
+  return array
 end
 
 def using_insert(list_of_esoteric_programming_languages)
