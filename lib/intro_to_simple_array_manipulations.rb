@@ -57,6 +57,4 @@ flat_array = private_colleges_in_newyork.using_flatten
 return flat_array
 end
 
-
-
-
+def using_delete 
