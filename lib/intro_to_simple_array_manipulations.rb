@@ -25,9 +25,8 @@ def using_shift(array)
 return array.shift
 end
 
-def shift_with_args(ice_cream_brands)
-  ice_cream_brands =  ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  return ice_cream_brands.shift(2)
+def shift_with_args(array)
+  return array.shift(2)
 end
 
 def using_concat(my_favorite_things)
